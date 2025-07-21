@@ -526,6 +526,7 @@ export function RegistrationModal({ isOpen, onClose }: RegistrationModalProps) {
                 type="submit"
                 disabled={isSubmitting}
                 className="btn btn-primary px-8 py-3 rounded-full font-semibold bg-primary-gradient text-white hover:scale-105 transition-transform disabled:opacity-50 disabled:cursor-not-allowed flex items-center gap-2"
+                style={{ display: 'none' }}
               >
                 {isSubmitting ? (
                   <>
@@ -539,6 +540,17 @@ export function RegistrationModal({ isOpen, onClose }: RegistrationModalProps) {
                   </>
                 )}
               </button>
+              {/* Payment Link Button */}
+              <a
+                href={selectedCategory === '5K' ? 'https://rzp.io/rzp/5k-salute' : 'https://rzp.io/rzp/10k-salute'}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn btn-primary px-8 py-3 rounded-full font-semibold bg-primary-gradient text-white hover:scale-105 transition-transform flex items-center gap-2 justify-center text-center"
+                style={{ minWidth: 200 }}
+              >
+                <CreditCard size={20} />
+                Save & Pay Now
+              </a>
             </div>
           </div>
         )
