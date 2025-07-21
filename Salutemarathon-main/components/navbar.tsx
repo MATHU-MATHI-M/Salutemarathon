@@ -27,8 +27,8 @@ export function Navbar({ onOpenModal }: { onOpenModal: () => void }) {
           href="#home"
           className="nav-logo flex items-center gap-3 font-poppins font-extrabold text-text-dark text-xl"
         >
-          <img src="/1.png" alt="Salute Marathon Logo" className="logo-icon" style={{ width: 80, height: 80, maxHeight: 200, objectFit: 'contain', background: 'none', borderRadius: 0, display: 'block', padding: 0, margin: 0 }} />
-          <span>SALUTE MARATHON</span>
+          <img src="/2.png" alt="Salute Marathon Logo" className="logo-icon" style={{ width: 190, height: 90, maxHeight: 90, objectFit: 'contain', background: 'none', borderRadius: 0, display: 'block', padding: 0, margin: 0 }} />
+          
         </Link>
         <ul
           className={`nav-menu flex list-none gap-8 md:flex ${isMenuOpen ? "active fixed left-0 top-[80px] flex-col bg-white w-full text-center shadow-medium py-8 gap-6" : "hidden md:flex"}`}

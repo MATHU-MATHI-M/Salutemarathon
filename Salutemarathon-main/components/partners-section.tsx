@@ -29,36 +29,40 @@ export function PartnersSection() {
             Supporting our mission for women safety and drug awareness
           </p>
         </div>
-        <div className="flex flex-row justify-between items-end gap-4 md:gap-0 mt-12">
-          {/* Sponsor 1 */}
-          <div className="flex flex-col items-center flex-1 min-w-0">
+        {/* Gold Sponsor Section */}
+        <div className="flex flex-col items-center justify-center my-12">
+          <h3 className="font-poppins text-2xl font-bold text-text-dark mb-6">Gold Sponsor</h3>
+          <div className="flex flex-col items-center">
             <div className="flex items-end justify-center min-h-[90px]">
-              <img src="/7.jpg" alt="Sponsor 1 Logo" className="max-h-[80px] w-auto object-contain mb-2" />
+              <img src="/7.jpg" alt="Gold Sponsor Logo" className="max-h-[80px] w-auto object-contain mb-2" />
             </div>
-            <span className="font-semibold text-text-dark text-lg text-center mt-2">Gold sponsor</span>
           </div>
-          {/* Sponsor 2 */}
-          <div className="flex flex-col items-center flex-1 min-w-0">
-            <div className="flex items-end justify-center min-h-[90px]">
-              <img src="/5.jpg" alt="Sponsor 2 Logo" className="max-h-[80px] w-auto object-contain mb-2" />
+        </div>
+        {/* Valuable Partners Section */}
+        <div className="flex flex-col items-center justify-center my-12">
+          <h3 className="font-poppins text-2xl font-bold text-text-dark mb-6">Our Valuable Partners</h3>
+          <div className="flex flex-row justify-center items-end gap-8 w-full max-w-4xl">
+            {/* Technical partner */}
+            <div className="flex flex-col items-center flex-1 min-w-0">
+              <div className="flex items-end justify-center min-h-[90px]">
+                <img src="/5.jpg" alt="Technical Partner Logo" className="max-h-[80px] w-auto object-contain mb-2" />
+              </div>
+              <span className="font-semibold text-text-dark text-lg text-center mt-2">Technical partner</span>
             </div>
-            <span className="font-semibold text-text-dark text-lg text-center mt-2">Technical partner</span>
-          </div>
-          {/* Spacer between 2nd and 3rd logo */}
-          <div className="hidden md:block" style={{ width: 48 }}></div>
-          {/* Sponsor 3 */}
-          <div className="flex flex-col items-center flex-1 min-w-0">
-            <div className="flex items-end justify-center min-h-[90px]">
-              <img src="/8.png" alt="Sponsor 3 Logo" className="max-h-[80px] w-auto object-contain mb-2" />
+            {/* Designing partner */}
+            <div className="flex flex-col items-center flex-1 min-w-0">
+              <div className="flex items-end justify-center min-h-[90px]">
+                <img src="/8.png" alt="Designing Partner Logo" className="max-h-[80px] w-auto object-contain mb-2" />
+              </div>
+              <span className="font-semibold text-text-dark text-lg text-center mt-2">Designing partner</span>
             </div>
-            <span className="font-semibold text-text-dark text-lg text-center mt-2">Designing partner</span>
-          </div>
-          {/* Sponsor 4 */}
-          <div className="flex flex-col items-center flex-1 min-w-0">
-            <div className="flex items-end justify-center min-h-[90px]">
-              <img src="/3.png" alt="Sponsor 4 Logo" className="max-h-[80px] w-auto object-contain mb-2" />
+            {/* Energy partner */}
+            <div className="flex flex-col items-center flex-1 min-w-0">
+              <div className="flex items-end justify-center min-h-[90px]">
+                <img src="/3.png" alt="Energy Partner Logo" className="max-h-[80px] w-auto object-contain mb-2" />
+              </div>
+              <span className="font-semibold text-text-dark text-lg text-center mt-2">Energy partner</span>
             </div>
-            <span className="font-semibold text-text-dark text-lg text-center mt-2">Energy partner</span>
           </div>
         </div>
       </div>
