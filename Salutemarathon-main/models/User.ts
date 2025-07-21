@@ -11,7 +11,7 @@ export interface IUser extends Document {
   emergencyContactName: string
   emergencyContactPhone: string
   medicalConditions?: string
-  tshirtSize: 'XS' | 'S' | 'M' | 'L' | 'XL' | 'XXL'
+  tshirtSize: 'M' | 'L' | 'XL' | 'XXL'
   address: {
     street: string
     city: string
@@ -113,7 +113,7 @@ const UserSchema: Schema = new Schema({
   tshirtSize: {
     type: String,
     required: [true, 'T-shirt size is required'],
-    enum: ['XS', 'S', 'M', 'L', 'XL', 'XXL']
+    enum: ['M', 'L', 'XL', 'XXL']
   },
   address: {
     street: {

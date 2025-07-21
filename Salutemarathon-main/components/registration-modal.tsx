@@ -327,8 +327,6 @@ export function RegistrationModal({ isOpen, onClose }: RegistrationModalProps) {
                   className="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-purple focus:border-transparent"
                 >
                   <option value="">Select Size</option>
-                  <option value="XS">XS</option>
-                  <option value="S">S</option>
                   <option value="M">M</option>
                   <option value="L">L</option>
                   <option value="XL">XL</option>
